@@ -1,6 +1,6 @@
 h1{
  color:yellow
-}
+ }
 body{
     color: brown;
     background-color:black;
@@ -8,10 +8,9 @@ body{
 li{
     font-style: italic;
     color:yellow
-}
-h2{
     
 }
+
 form{
     color:grey
     ;
@@ -19,4 +18,3 @@ form{
 button{
     background-color: blue;
 }
-bod
