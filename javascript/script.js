@@ -10,7 +10,7 @@ function fn() {
   if (year < 0) {
     document.getElementsByClassName("yearerror").innerHTML =
       "enter correct year";
-  } else if (year == "") {
+  } else if ((year == "")) {
     document.getElementsByClassName("yearerror").innerHTML =
       "cannot leave it empty";
   } else {
@@ -71,8 +71,9 @@ d.setMonth(month - 1);
         alert("your akan name is " + male[2]);
       } else if (day == 3) {
         alert("your akan name is " + male[3]);
-      } else if (day == 4) [alert("your akan name is " + male[4])];
-      else if (day == 5) {
+      } else if (day == 4)  {
+        alert("your akan name is " + male[4]);
+      } else if (day == 5) {
         alert("your akan name is " + male[5]);
       } else if (day == 6) {
         alert("your akan name is " + male[6]);
@@ -86,8 +87,9 @@ d.setMonth(month - 1);
         alert("your akan name is " + female[2]);
       } else if (day == 3) {
         alert("your akan name is " + female[3]);
-      } else if (day == 4) [alert("your akan name is " + female[4])];
-      else if (day == 5) {
+      } else if (day == 4) {
+        alert("your akan name is " + female[4]);
+      } else if (day == 5) {
         alert("your akan name is " + female[5]);
       } else if (day == 6) {
         alert("your akan name is " + female[6]);
